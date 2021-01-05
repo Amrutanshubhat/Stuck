@@ -1,0 +1,8 @@
+{% extends "layout.html" %}
+{% block content %}
+
+{%for i in lst.keys()%}
+<p id="cme">{{i}}&nbsp;&nbsp;:{{lst[i]}}<br></p>
+{%endfor%}
+
+{% endblock content %}

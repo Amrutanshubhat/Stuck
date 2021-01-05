@@ -1,0 +1,44 @@
+posting_date,cost_center,remarks,voucher_type,debit,credit,net_balance
+,,Opening Balance,,,,0
+06-11-2020,NSE-EQ - Z,Net settlement  for  NSE-Equity with settlement number: 2020215,Book Voucher,6923.2804,0,-6923.2804
+06-11-2020,NSE-EQ - Z,Funds added using UPI KS9897 with reference number 31114386170    ,Bank Receipts,0,6915,-8.2804
+09-11-2020,NSE-EQ - Z,Net settlement  for  NSE-Equity with settlement number: 2020216,Book Voucher,7217.2493,0,-7225.5298
+09-11-2020,NSE-EQ - Z,Funds added using UPI KS9897 with reference number 31415421279    ,Bank Receipts,0,6750,-475.5298
+09-11-2020,NSE-EQ - Z,Funds added using UPI KS9897 with reference number 31273861326    ,Bank Receipts,0,500,24.4702
+13-11-2020,NSE-EQ - Z,Funds added using UPI KS9897 with reference number 31810826834    ,Bank Receipts,0,6000,6024.4702
+13-11-2020,NSE-EQ - Z,Net settlement  for  NSE-Equity with settlement number: 2020220,Book Voucher,0,131.9012,6156.3715
+17-11-2020,NSE-EQ - Z,Net settlement  for  NSE-Equity with settlement number: 2020222,Book Voucher,0,6212.1538,12368.5252
+17-11-2020,NSE-EQ - Z,Charges for sale of MARUTI on 2020-11-17,Journal Entry,15.93,0,12352.5952
+18-11-2020,NSE-EQ - Z,Net settlement  for  NSE-Equity with settlement number: 2020223,Book Voucher,0,57.5524,12410.1476
+19-11-2020,NSE-EQ - Z,Net settlement  for  NSE-Equity with settlement number: 2020224,Book Voucher,1944.7272,0,10465.4204
+20-11-2020,NSE-EQ - Z,Net settlement  for  NSE-Equity with settlement number: 2020225,Book Voucher,74.4879,0,10390.9324
+23-11-2020,NSE-EQ - Z,Net settlement  for  NSE-Equity with settlement number: 2020226,Book Voucher,0,7249.7491,17640.6815
+23-11-2020,NSE-EQ - Z,DP Charges for sale of GLENMARK on 2020-11-23,Journal Entry,15.93,0,17624.7515
+23-11-2020,NSE-EQ - Z,Funds added using UPI KS9897 with reference number 32822916415    ,Bank Receipts,0,10000,27624.7515
+24-11-2020,NSE-EQ - Z,Net settlement  for  NSE-Equity with settlement number: 2020227,Book Voucher,0,61.686,27686.4375
+25-11-2020,NSE-EQ - Z,Net settlement  for  NSE-Equity with settlement number: 2020228,Book Voucher,9701.3311,0,17985.1064
+27-11-2020,NSE-EQ - Z,Net settlement  for  NSE-Equity with settlement number: 2020230,Book Voucher,15.2134,0,17969.8931
+02-12-2020,NSE-EQ - Z,Net settlement  for  NSE-Equity with settlement number: 2020232,Book Voucher,1078.8,0,16891.093
+02-12-2020,NSE-EQ - Z,Payout of 7500.0/- to PAYTM PAYMENTS BANK LTD 919535289338 A/C number as per withdrawal request made on 2020-12-02,Bank Payments,7500,0,9391.093
+03-12-2020,NSE-EQ - Z,Net settlement  for  NSE-Equity with settlement number: 2020233,Book Voucher,0,1153.9467,10545.0397
+04-12-2020,NSE-EQ - Z,Net settlement  for  NSE-Equity with settlement number: 2020234,Book Voucher,4161.1733,0,6383.8665
+07-12-2020,NSE-EQ - Z,Net settlement  for  NSE-Equity with settlement number: 2020235,Book Voucher,2008.9019,0,4374.9646
+10-12-2020,NSE-EQ - Z,Net settlement  for  NSE-Equity with settlement number: 2020238,Book Voucher,0,9770.0131,14144.9777
+10-12-2020,NSE-EQ - Z,Charges for sale of RAYMOND on 2020-12-10,Journal Entry,15.93,0,14129.0477
+14-12-2020,NSE-EQ - Z,Net settlement  for  NSE-Equity with settlement number: 2020240,Book Voucher,0,6223.7645,20352.8122
+14-12-2020,NSE-EQ - Z,DP Charges for Sale of AXISBANK on 14/12/2020,Journal Entry,15.93,0,20336.8822
+16-12-2020,NSE-EQ - Z,Net settlement  for  NSE-Equity with settlement number: 2020242,Book Voucher,14016.5144,0,6320.3678
+17-12-2020,NSE-EQ - Z,Net settlement  for  NSE-Equity with settlement number: 2020243,Book Voucher,0,14305.4741,20625.842
+21-12-2020,NSE-F&O - Z,Net obligation for NSE Equity F&O,Book Voucher,0,6.6389,20632.4809
+21-12-2020,NSE-EQ - Z,Net settlement  for  NSE-Equity with settlement number: 2020245,Book Voucher,4750.6681,0,15881.8127
+23-12-2020,NSE-EQ - Z,Charges for sale of BURGERKING on 2020-12-23,Journal Entry,15.93,0,15865.8827
+23-12-2020,NSE-EQ - Z,Net settlement  for  NSE-Equity with settlement number: 2020247,Book Voucher,0,5513.8063,21379.689
+24-12-2020,NSE-EQ - Z,Net settlement  for  NSE-Equity with settlement number: 2020248,Book Voucher,6606.2681,0,14773.4209
+28-12-2020,NSE-EQ - Z,Net settlement  for  NSE-Equity with settlement number: 2020249,Book Voucher,0,6692.7279,21466.1488
+29-12-2020,NSE-F&O - Z,Net obligation for NSE Equity F&O,Book Voucher,39.4874,0,21426.6615
+30-12-2020,NSE-EQ - Z,Net settlement  for  NSE-Equity with settlement number: 2020251,Book Voucher,7457.7073,0,13968.9542
+31-12-2020,NSE-F&O - Z,Net obligation for NSE Equity F&O,Book Voucher,0,285.904,14254.8582
+31-12-2020,NSE-EQ - Z,Net settlement  for  NSE-Equity with settlement number: 2020252,Book Voucher,0,7498.9536,21753.8118
+01-01-2021,NSE-EQ - Z,Net settlement  for  NSE-Equity with settlement number: 2021001,Book Voucher,15608.9454,0,6144.8664
+04-01-2021,NSE-EQ - Z,Net settlement  for  NSE-Equity with settlement number: 2021002,Book Voucher,0,12506.5544,18651.4208
+,,Closing Balance,,,,18651.4208

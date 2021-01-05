@@ -1,0 +1,4 @@
+flask
+Jinja2
+flask_pymongo
+nsetools

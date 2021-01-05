@@ -1,0 +1,16 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+<h2>All Nifty Indices</h2>
+<div class="row"><br><br>
+{% for i in lst%}
+<div class="col-xs-4" style="padding: 10px;">
+    <a href="{{url_for('get_detail',index=i)}}">{{i}}</a>
+</div>
+{% endfor %}
+</div>
+<br><br>
+
+
+{% endblock content %}
