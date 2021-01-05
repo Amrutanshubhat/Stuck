@@ -5,7 +5,7 @@ import csv
 import os
 nse=Nse()
 
-from kite import functions
+import functions
 
 
 UPLOAD_FOLDER = './kite'

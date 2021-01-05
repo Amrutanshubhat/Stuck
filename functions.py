@@ -2,7 +2,7 @@ import os
 import csv
 
 def total_csv(holding):
-    data_file = os.path.join('./kite', 'ledger.csv')
+    data_file = os.path.join('./', 'ledger.csv')
     index=(0,1,2,3)
     credit=0
     debit=0
