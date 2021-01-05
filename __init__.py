@@ -33,8 +33,9 @@ def home():
 
 @app.route('/market')
 def market():
-    lst=nse.get_index_list()[1:24]
-    return render_template('home.html',lst=lst)
+    return "SUPPPP...."
+    #lst=nse.get_index_list()[1:24]
+    #return render_template('home.html',lst=lst)
 
 @app.route("/index/<index>")
 def get_detail(index):
