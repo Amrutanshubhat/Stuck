@@ -31,9 +31,8 @@ def home():
     return render_template('root.html',lst=lst)
 
 
-@app.route('/market',defaults={'path':''})
-@app.route('/<path:path>')
-def market(path):
+@app.route('/market')
+def market():
     lst=nse.get_index_list()[1:24]
     return render_template('home.html',lst=lst)
 
