@@ -1,9 +1,16 @@
 import os
 import csv
+import openpyxl
+import pandas as pd
+
+def xlsx_to_csv():
+    wb = openpyxl.load_workbook("ledger.xlsx")
+    f=wb["Equity"]
+    df = pd.DataFrame(f.values)
+    df.to_csv('ledger.csv',header=False,index=False,encoding='utf-8')
 
 def total_csv(holding):
     data_file = os.path.join('./', 'ledger.csv')
-    index=(0,1,2,3)
     credit=0
     debit=0
     closing=0
@@ -12,22 +19,20 @@ def total_csv(holding):
         with open(data_file,'r') as file:
             for line in file:
                 line=line.strip()
-                line=line.split(',')[2:] 
+                line=line.split(',')
                 try:
-                    if 'Opening Balance' in line[0]:
-                        credit=float(line[4])
-                    elif('Funds added using' in line[0]):
-                        credit+=float(line[3])
-                        #debit+=float(line[2])
-                    elif 'Payout of' in line[0]:
-                        debit+=float(line[2])
-                    elif 'Closing Balance' in line[0]:
-                        closing=float(line[4])
+                    if 'Opening' in line[1]:
+                        credit=float(line[-1])
+                    elif('Funds added' in line[1]):
+                        credit+=float(line[-2])
+                    elif 'Payout' in line[1]:
+                        debit+=float(line[-3])
+                    elif 'Closing' in line[1]:
+                        closing=float(line[-1])
                 except:
                     continue
     except:
         return []
-
     closing+=holding
     funds_added=round((credit-debit),2)
     final["credit"]=round(credit,2)

@@ -9,7 +9,7 @@ import functions
 
 
 UPLOAD_FOLDER = './'
-ALLOWED_EXTENSIONS = {'csv'}
+ALLOWED_EXTENSIONS = {'xlsx'}
 app = Flask(__name__)
 app.secret_key = b'_5#y2L"F4Q8z\n\xec]/'
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
@@ -33,9 +33,9 @@ def home():
 
 @app.route('/market')
 def market():
-    return "SUPPPP...."
-    #lst=nse.get_index_list()[1:24]
-    #return render_template('home.html',lst=lst)
+    #return "SUPPPP...."
+    lst=nse.get_index_list()[1:24]
+    return render_template('home.html',lst=lst)
 
 @app.route("/index/<index>")
 def get_detail(index):
@@ -54,8 +54,9 @@ def upload():
     if request.method == 'POST':  
         f = request.files['file']
         if(allowed_file(f.filename)):
-            filename='ledger.csv'  
+            filename='ledger.xlsx'  
             f.save(os.path.join(app.config['UPLOAD_FOLDER'], filename))  
+            functions.xlsx_to_csv()
             flash("Uploaded Successfully")
         else:
             flash('Invalid File')
