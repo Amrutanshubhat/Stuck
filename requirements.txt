@@ -5,4 +5,4 @@ flask_pymongo
 nsetools
 openpyxl
 pandas
-csv
+pip install python-csv
